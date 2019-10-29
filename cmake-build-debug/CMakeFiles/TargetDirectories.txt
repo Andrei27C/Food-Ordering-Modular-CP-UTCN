@@ -1,0 +1,3 @@
+C:/github/FoodOrdering/FoodOrdering/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/github/FoodOrdering/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrdering.dir
+C:/github/FoodOrdering/FoodOrdering/cmake-build-debug/CMakeFiles/edit_cache.dir
