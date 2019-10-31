@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <string.h>
 //2
 int main() {
     printf("Welcome to Food Thingies!\n");
-
+    //changes
     // food data
     int noOfFood = 3;
     char food[][10] = {"Pizza","Pasta","Salad"};
@@ -126,7 +127,14 @@ int main() {
                 state++;
                 break;
             }
-            case 5:{
+            case 5: {
+                //Additional info
+                printf("Any additional info?\n");
+                gets(additionalInfo);
+                state++;
+                break;
+            }
+            case 6:{
                 // Display order
                 printf("This is your order:\n");
                 printf("-------------------\n");
@@ -146,8 +154,8 @@ int main() {
                 else
                     printf("Cutlery: no\n");
                 //Additional info
-                printf("Additional info: ");
-                gets(additionalInfo);
+                if(strcmp(additionalInfo,"") != 0)
+                    printf("Additional info: %s", additionalInfo);
                 //Payment amount
                 printf("Payment amount: %.2f\n", prices[foodChoice][typeChoice] + drinkPrice);
                 printf("-------------------\n");
