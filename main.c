@@ -155,7 +155,7 @@ int main() {
                     printf("Cutlery: no\n");
                 //Additional info
                 if(strcmp(additionalInfo,"") != 0)
-                    printf("Additional info: %s", additionalInfo);
+                    printf("Additional info: %s\n", additionalInfo);
                 //Payment amount
                 printf("Payment amount: %.2f\n", prices[foodChoice][typeChoice] + drinkPrice);
                 printf("-------------------\n");
