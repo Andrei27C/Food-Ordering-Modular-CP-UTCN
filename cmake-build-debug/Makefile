@@ -47,24 +47,13 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\github\FoodOrdering\FoodOrdering
+CMAKE_SOURCE_DIR = C:\github\FOModular\FoodOrderingModular
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\github\FoodOrdering\FoodOrdering\cmake-build-debug
+CMAKE_BINARY_DIR = C:\github\FOModular\FoodOrderingModular\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FoodOrdering
+# Target rules for targets named FoodOrderingRModular
 
 # Build rule for target.
-FoodOrdering: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 FoodOrdering
-.PHONY : FoodOrdering
+FoodOrderingRModular: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FoodOrderingRModular
+.PHONY : FoodOrderingRModular
 
 # fast build rule for target.
-FoodOrdering/fast:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/build
-.PHONY : FoodOrdering/fast
+FoodOrderingRModular/fast:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/build
+.PHONY : FoodOrderingRModular/fast
+
+additional_things.obj: additional_things.c.obj
+
+.PHONY : additional_things.obj
+
+# target to build an object file
+additional_things.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj
+.PHONY : additional_things.c.obj
+
+additional_things.i: additional_things.c.i
+
+.PHONY : additional_things.i
+
+# target to preprocess a source file
+additional_things.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/additional_things.c.i
+.PHONY : additional_things.c.i
+
+additional_things.s: additional_things.c.s
+
+.PHONY : additional_things.s
+
+# target to generate assembly for a file
+additional_things.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/additional_things.c.s
+.PHONY : additional_things.c.s
+
+choosingFood.obj: choosingFood.c.obj
+
+.PHONY : choosingFood.obj
+
+# target to build an object file
+choosingFood.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj
+.PHONY : choosingFood.c.obj
+
+choosingFood.i: choosingFood.c.i
+
+.PHONY : choosingFood.i
+
+# target to preprocess a source file
+choosingFood.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.i
+.PHONY : choosingFood.c.i
+
+choosingFood.s: choosingFood.c.s
+
+.PHONY : choosingFood.s
+
+# target to generate assembly for a file
+choosingFood.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.s
+.PHONY : choosingFood.c.s
 
 main.obj: main.c.obj
 
@@ -128,7 +182,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/main.c.obj
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -137,7 +191,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/main.c.i
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -146,8 +200,62 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/main.c.s
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/main.c.s
 .PHONY : main.c.s
+
+order_confimation.obj: order_confimation.c.obj
+
+.PHONY : order_confimation.obj
+
+# target to build an object file
+order_confimation.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj
+.PHONY : order_confimation.c.obj
+
+order_confimation.i: order_confimation.c.i
+
+.PHONY : order_confimation.i
+
+# target to preprocess a source file
+order_confimation.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.i
+.PHONY : order_confimation.c.i
+
+order_confimation.s: order_confimation.c.s
+
+.PHONY : order_confimation.s
+
+# target to generate assembly for a file
+order_confimation.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.s
+.PHONY : order_confimation.c.s
+
+user_data.obj: user_data.c.obj
+
+.PHONY : user_data.obj
+
+# target to build an object file
+user_data.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj
+.PHONY : user_data.c.obj
+
+user_data.i: user_data.c.i
+
+.PHONY : user_data.i
+
+# target to preprocess a source file
+user_data.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.i
+.PHONY : user_data.c.i
+
+user_data.s: user_data.c.s
+
+.PHONY : user_data.s
+
+# target to generate assembly for a file
+user_data.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.s
+.PHONY : user_data.c.s
 
 # Help Target
 help:
@@ -155,12 +263,24 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... FoodOrdering
+	@echo ... FoodOrderingRModular
 	@echo ... edit_cache
+	@echo ... rebuild_cache
+	@echo ... additional_things.obj
+	@echo ... additional_things.i
+	@echo ... additional_things.s
+	@echo ... choosingFood.obj
+	@echo ... choosingFood.i
+	@echo ... choosingFood.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... order_confimation.obj
+	@echo ... order_confimation.i
+	@echo ... order_confimation.s
+	@echo ... user_data.obj
+	@echo ... user_data.i
+	@echo ... user_data.s
 .PHONY : help
 
 

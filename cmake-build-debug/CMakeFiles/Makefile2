@@ -43,21 +43,21 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\github\FoodOrdering\FoodOrdering
+CMAKE_SOURCE_DIR = C:\github\FOModular\FoodOrderingModular
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\github\FoodOrdering\FoodOrdering\cmake-build-debug
+CMAKE_BINARY_DIR = C:\github\FOModular\FoodOrderingModular\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/FoodOrdering.dir/all
+all: CMakeFiles/FoodOrderingRModular.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/FoodOrdering.dir/clean
+clean: CMakeFiles/FoodOrderingRModular.dir/clean
 
 .PHONY : clean
 
@@ -67,31 +67,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/FoodOrdering.dir
+# Target rules for target CMakeFiles/FoodOrderingRModular.dir
 
 # All Build rule for target.
-CMakeFiles/FoodOrdering.dir/all:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/depend
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target FoodOrdering"
-.PHONY : CMakeFiles/FoodOrdering.dir/all
+CMakeFiles/FoodOrderingRModular.dir/all:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/depend
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target FoodOrderingRModular"
+.PHONY : CMakeFiles/FoodOrderingRModular.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/FoodOrdering.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FoodOrdering.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FoodOrdering\FoodOrdering\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/FoodOrdering.dir/rule
+CMakeFiles/FoodOrderingRModular.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 6
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FoodOrderingRModular.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/FoodOrderingRModular.dir/rule
 
 # Convenience name for target.
-FoodOrdering: CMakeFiles/FoodOrdering.dir/rule
+FoodOrderingRModular: CMakeFiles/FoodOrderingRModular.dir/rule
 
-.PHONY : FoodOrdering
+.PHONY : FoodOrderingRModular
 
 # clean rule for target.
-CMakeFiles/FoodOrdering.dir/clean:
-	$(MAKE) -f CMakeFiles\FoodOrdering.dir\build.make CMakeFiles/FoodOrdering.dir/clean
-.PHONY : CMakeFiles/FoodOrdering.dir/clean
+CMakeFiles/FoodOrderingRModular.dir/clean:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/clean
+.PHONY : CMakeFiles/FoodOrderingRModular.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

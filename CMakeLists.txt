@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(FoodOrdering C)
+project(FoodOrderingRModular C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(FoodOrdering main.c)
+add_executable(FoodOrderingRModular main.c buyer.h user_data.c order.h choosingFood.c additional_things.c order_confimation.c)
