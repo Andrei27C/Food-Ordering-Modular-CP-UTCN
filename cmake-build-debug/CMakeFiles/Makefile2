@@ -43,10 +43,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\github\FOModular\FoodOrderingModular
+CMAKE_SOURCE_DIR = C:\Users\csatl\Documents\GitHub\FoodOrdering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\github\FOModular\FoodOrderingModular\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/FoodOrderingRModular.dir/all:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/depend
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target FoodOrderingRModular"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target FoodOrderingRModular"
 .PHONY : CMakeFiles/FoodOrderingRModular.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FoodOrderingRModular.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles 9
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FoodOrderingRModular.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/FoodOrderingRModular.dir/rule
 
 # Convenience name for target.

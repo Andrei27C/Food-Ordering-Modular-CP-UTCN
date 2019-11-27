@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj"
   "CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj"
+  "CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj"
+  "CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj"
+  "CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj"
   "CMakeFiles/FoodOrderingRModular.dir/main.c.obj"
   "CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj"
   "CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj"

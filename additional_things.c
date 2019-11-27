@@ -22,13 +22,13 @@ void askForCutlery(int *wantCutlery, int *choice, int *state)
         *wantCutlery = 1;
     *state = *state + 1;
 }
-void additionalInformation(char additionalInfo[], int *state)
+void additionalInformation(char *additionalInfo, int *state)
 {
     printf("Any additional info?\n");
     gets(additionalInfo);
     *state  = *state + 1;
 }
-void orderDisplay(char username[], int food[][10], int foodChoice, char types[][4][15], int typeChoice, double prices[][4], int nochosendrink, char drinks[][15], double drinksPrices[], int chosendrink, int wantCutlery, char additionalInfo[], int *orderConfirmed, int *choice, int *state)
+void orderDisplay(char *username, char **food, int foodChoice, char ***types, int typeChoice, double **foodTypePrices, int nochosendrink, char **drinks, double *drinksPrices, int chosendrink, int wantCutlery, char additionalInfo[], int *orderConfirmed, int *choice, int *state)
 {
     // Display order
     printf("This is your order:\n");
@@ -36,7 +36,7 @@ void orderDisplay(char username[], int food[][10], int foodChoice, char types[][
     printf("Name: %s\n", username);
     //Food Items
     printf("Food items:\n");
-    printf("---%s %s: (%.2f)\n", food[foodChoice], types[foodChoice][typeChoice], prices[foodChoice][typeChoice]);
+    printf("---%s %s: (%.2f)\n", food[foodChoice], types[foodChoice][typeChoice], foodTypePrices[foodChoice][typeChoice]);
     double drinkPrice = 0;
     if(nochosendrink == 0)
     {
@@ -52,7 +52,7 @@ void orderDisplay(char username[], int food[][10], int foodChoice, char types[][
     if(strcmp(additionalInfo,"") != 0)
         printf("Additional info: %s\n", additionalInfo);
     //Payment amount
-    printf("Payment amount: %.2f\n", prices[foodChoice][typeChoice] + drinkPrice);
+    printf("Payment amount: %.2f\n", foodTypePrices[foodChoice][typeChoice] + drinkPrice);
     printf("-------------------\n");
     printf("a) Confirm order\n");
     printf("b) Go back\n");
