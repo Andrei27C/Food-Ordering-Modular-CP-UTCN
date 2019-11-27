@@ -13,20 +13,9 @@ void afisDrinks();
 void loadData();
 
 int main() {
-    /*
-    puts("");
-    char line[500];
-    data_file = fopen("food_data.txt","r");
-    data_file = stdin;
-    fgets(line, MAX_LINE_CHARS, data_file);
-    puts(line);
-    fclose(data_file);
-    puts("");
-*/
     int wantCutlery = 0,  state =0, orderConfirmed = 0;
     char additionalInfo[200], username[20], password[20];
     int choice, foodChoice, chosendrink, nochosendrink=0, typeChoice;
-    // todo
     loadData(getConsole);
     printf("Welcome to Food Thingies!\n");
     while(!orderConfirmed){
