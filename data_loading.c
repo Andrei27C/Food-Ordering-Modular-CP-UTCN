@@ -23,11 +23,9 @@ void loadFoods()
     fgets(line, MAX_LINE_CHARS, data_file);
     for(int i = 0; i < noOfFoods; i++)
     {
-        // todo take this and move it ->
         fgets(line, MAX_LINE_CHARS, data_file);
         p = strtok(line,":");
         strcpy(food[i],p);
-        //
     }
     fclose(data_file);
 }
@@ -55,21 +53,16 @@ void loadFoodTypes()
     fgets(line, MAX_LINE_CHARS, data_file);
     for(int i = 0; i < noOfFoods; i++)
     {
-        // todo take this and move it ->
         fgets(line, MAX_LINE_CHARS, data_file);
         int cnt=0;
         for(int j=0; j < strlen(line); j++)
         {
             if(line[j] == '(')
             {
-                getNameAndPrice(j,line,s,types[i][cnt], &foodTypePrices[i][cnt]);
-                //printf("f p: %s --- types: %s  --typePrices: %.2f  --i:%d --cnt:%d\n",s,types[i][cnt],foodTypePrices[i][cnt],i,cnt);
+                getNameAndPrice(j,line,s,types[i][cnt], &foodTypePrices[i][cnt])
                 cnt++;
             }
         }
-        //food[i] = p;
-        //puts(food[i]);
-        //
     }
     fclose(data_file);
 }
@@ -103,14 +96,11 @@ void getNameAndPrice(int i, char *line, char * s, char *name, double *price)
     int j=0;
     while(line[i] != ')')
     {
-        //printf("%c",line[i]);
         s[j] = line[i];
         i++; j++;
     }
     getName(s, name);
-    //printf("name:%s\n",name);
     *price = getPrice(s);
-    //puts(s);
 
 }
 void getName(char *s, char *name) {
