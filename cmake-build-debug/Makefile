@@ -257,6 +257,33 @@ initialize_variables.c.s:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.s
 .PHONY : initialize_variables.c.s
 
+login.obj: login.c.obj
+
+.PHONY : login.obj
+
+# target to build an object file
+login.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.obj
+.PHONY : login.c.obj
+
+login.i: login.c.i
+
+.PHONY : login.i
+
+# target to preprocess a source file
+login.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.i
+.PHONY : login.c.i
+
+login.s: login.c.s
+
+.PHONY : login.s
+
+# target to generate assembly for a file
+login.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.s
+.PHONY : login.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -362,6 +389,9 @@ help:
 	@echo ... initialize_variables.obj
 	@echo ... initialize_variables.i
 	@echo ... initialize_variables.s
+	@echo ... login.obj
+	@echo ... login.i
+	@echo ... login.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

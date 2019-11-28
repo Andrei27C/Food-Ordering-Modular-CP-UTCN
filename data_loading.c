@@ -59,7 +59,7 @@ void loadFoodTypes()
         {
             if(line[j] == '(')
             {
-                getNameAndPrice(j,line,s,types[i][cnt], &foodTypePrices[i][cnt])
+                getNameAndPrice(j,line,s,types[i][cnt], &foodTypePrices[i][cnt]);
                 cnt++;
             }
         }

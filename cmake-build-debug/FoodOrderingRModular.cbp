@@ -100,6 +100,12 @@
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/initialize_variables.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/login.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/main.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj"
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj"
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/initialize_variables.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj"
+  "C:/Users/csatl/Documents/GitHub/FoodOrdering/login.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/login.c.obj"
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/main.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/main.c.obj"
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/order_confimation.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj"
   "C:/Users/csatl/Documents/GitHub/FoodOrdering/user_data.c" "C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj"

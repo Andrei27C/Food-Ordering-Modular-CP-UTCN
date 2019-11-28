@@ -16,9 +16,13 @@ CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj: ../variables.h
 CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj: ../initialize_variables.c
 CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj: ../variables.h
 
+CMakeFiles/FoodOrderingRModular.dir/login.c.obj: ../login.c
+CMakeFiles/FoodOrderingRModular.dir/login.c.obj: ../login.h
+
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../buyer.h
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../data_loading.h
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../free_memory.h
+CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../login.h
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../main.c
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../order.h
 CMakeFiles/FoodOrderingRModular.dir/main.c.obj: ../variables.h
