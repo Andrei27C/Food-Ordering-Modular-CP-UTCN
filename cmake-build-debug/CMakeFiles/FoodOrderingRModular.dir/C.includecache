@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/csatl/Documents/GitHub/FoodOrdering/login.c
+stdio.h
+-
+io.h
+-
+string.h
+-
+login.h
+C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h
+
+C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h
+
