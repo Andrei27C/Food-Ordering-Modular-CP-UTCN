@@ -17,7 +17,6 @@ char **food, ***types, **drinks;
 int * noOfFoodTypes;
 double ** foodTypePrices, *drinkPrices;
 int getConsole;
-
 //function prototypes
 //int GetNoOfFoods();
 int GetNoOfFoodTypes(char *line);

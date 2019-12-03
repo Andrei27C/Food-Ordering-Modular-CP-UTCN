@@ -22,8 +22,7 @@ int main() {
         password[i] = '\0';
     }
 
-
-    loadData(getConsole);
+    loadData();
     printf("Welcome to Food Thingies!\n");
     while(!orderConfirmed){
         switch (state) {
@@ -83,11 +82,10 @@ void afisDrinks()
         printf(" %s - %.2f\n",drinks[i],drinkPrices[i]);
     }
 }
-void loadData(int getConsole)
+void loadData()
 {
     if(getConsole == 1)
-        puts(LOAD_DATA);
-    puts("");
+        printf("%s\n",LOAD_DATA);
     initNoOfFoods();
     initFoods();
     initNoOfFoodTypes();
@@ -103,5 +101,5 @@ void loadData(int getConsole)
 
     loadDrinks();
     //afisDrinks();
-    puts("");
+    printf("\n");
 }

@@ -11,7 +11,7 @@
 //function prototypes
 
 
-void load_data();
+//void load_data(int getConsole);
 void loadFoods();
 void loadNoOfFoodTypes();
 void loadFoodTypes();

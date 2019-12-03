@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <io.h>
 #include <string.h>
+#include <stdlib.h>
 #include "login.h"
 void login(char *username, char *password)
 {
@@ -101,6 +102,7 @@ int CheckForPassword(char *username, char * password)
         {
             p = strtok(NULL, " ");
             p[strlen(p)-1] = '\0';
+            Decryption(p);
             if(strcmp(p,password) == 0)
             {
                 fclose(users);
@@ -130,8 +132,11 @@ void SignUp(char *username, char *password, int *stateLogin)
         }
         else
         {
+            //change nr of users
+            UpdateNoOfUsers();
             //save user in file
             FILE * users = fopen("users_data.txt","a");
+            Encryption(password);
             fprintf(users,"%s %s\n",username,password);
             *stateLogin = 99;
             fclose(users);
@@ -166,4 +171,32 @@ int PasswordIsValid(char *username, char *password)
         return 0;
     }
     return 1;
+}
+void Encryption (char * pass)
+{
+    char encryptedPass [MAX_USER_LENGTH];
+    for(int i=0; i < strlen(pass); i++)
+    {
+        pass[i] = (int)(pass[i]) + 3;
+    }
+}
+void Decryption (char * pass)
+{
+    char encryptedPass [MAX_USER_LENGTH];
+    for(int i=0; i < strlen(pass); i++)
+    {
+        pass[i] = (int)(pass[i]) - 3;
+    }
+}
+void UpdateNoOfUsers()
+{
+    FILE * users = fopen("users_data.txt","r+");
+    int nrOfUsers = 0;
+    char line[255];
+    fgets(line,255,users);
+    fgets(line,255,users);
+    nrOfUsers = atoi(line);
+    fseek(users,0,SEEK_SET);
+    fprintf(users,"Caesar Code - 3 (Shift by 3)\n%d\n",nrOfUsers + 1);
+    fclose(users);
 }

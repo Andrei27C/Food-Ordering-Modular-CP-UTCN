@@ -61,7 +61,7 @@ void orderDisplay(char *username, char **food, int foodChoice, char ***types, in
     if(*choice=='a') {
         *orderConfirmed = 1;
     } else {
-        *state = *state - 1;
+        *state = *state - 2;
     }
     printf("Order confirmed! Thank you for buying from us, %s!\n", username);
     // consume new line

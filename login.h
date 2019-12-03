@@ -26,4 +26,7 @@ int CheckForUsername(char *username);
 int CheckForPassword(char *username, char * password);
 void SignUp(char *username, char *password, int *stateLogin);
 int PasswordIsValid(char *username, char *password);
+void Encryption (char * pass);
+void Decryption (char * pass);
+void UpdateNoOfUsers();
 #endif //FOODORDERINGRMODULAR_LOGIN_H

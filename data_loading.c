@@ -25,6 +25,7 @@ void loadFoods()
     {
         fgets(line, MAX_LINE_CHARS, data_file);
         p = strtok(line,":");
+        p[strlen(p)-1] = '\0';
         strcpy(food[i],p);
     }
     fclose(data_file);
