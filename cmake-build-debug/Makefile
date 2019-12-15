@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\github\FOModular\FoodOrderingModular
+CMAKE_SOURCE_DIR = C:\Users\csatl\Documents\GitHub\FoodOrdering
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\github\FOModular\FoodOrderingModular\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\github\FOModular\FoodOrderingModular\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -175,6 +175,114 @@ choosingFood.s: choosingFood.c.s
 choosingFood.c.s:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.s
 .PHONY : choosingFood.c.s
+
+data_loading.obj: data_loading.c.obj
+
+.PHONY : data_loading.obj
+
+# target to build an object file
+data_loading.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj
+.PHONY : data_loading.c.obj
+
+data_loading.i: data_loading.c.i
+
+.PHONY : data_loading.i
+
+# target to preprocess a source file
+data_loading.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/data_loading.c.i
+.PHONY : data_loading.c.i
+
+data_loading.s: data_loading.c.s
+
+.PHONY : data_loading.s
+
+# target to generate assembly for a file
+data_loading.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/data_loading.c.s
+.PHONY : data_loading.c.s
+
+free_memory.obj: free_memory.c.obj
+
+.PHONY : free_memory.obj
+
+# target to build an object file
+free_memory.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj
+.PHONY : free_memory.c.obj
+
+free_memory.i: free_memory.c.i
+
+.PHONY : free_memory.i
+
+# target to preprocess a source file
+free_memory.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/free_memory.c.i
+.PHONY : free_memory.c.i
+
+free_memory.s: free_memory.c.s
+
+.PHONY : free_memory.s
+
+# target to generate assembly for a file
+free_memory.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/free_memory.c.s
+.PHONY : free_memory.c.s
+
+initialize_variables.obj: initialize_variables.c.obj
+
+.PHONY : initialize_variables.obj
+
+# target to build an object file
+initialize_variables.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj
+.PHONY : initialize_variables.c.obj
+
+initialize_variables.i: initialize_variables.c.i
+
+.PHONY : initialize_variables.i
+
+# target to preprocess a source file
+initialize_variables.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.i
+.PHONY : initialize_variables.c.i
+
+initialize_variables.s: initialize_variables.c.s
+
+.PHONY : initialize_variables.s
+
+# target to generate assembly for a file
+initialize_variables.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.s
+.PHONY : initialize_variables.c.s
+
+login.obj: login.c.obj
+
+.PHONY : login.obj
+
+# target to build an object file
+login.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.obj
+.PHONY : login.c.obj
+
+login.i: login.c.i
+
+.PHONY : login.i
+
+# target to preprocess a source file
+login.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.i
+.PHONY : login.c.i
+
+login.s: login.c.s
+
+.PHONY : login.s
+
+# target to generate assembly for a file
+login.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/login.c.s
+.PHONY : login.c.s
 
 main.obj: main.c.obj
 
@@ -272,6 +380,18 @@ help:
 	@echo ... choosingFood.obj
 	@echo ... choosingFood.i
 	@echo ... choosingFood.s
+	@echo ... data_loading.obj
+	@echo ... data_loading.i
+	@echo ... data_loading.s
+	@echo ... free_memory.obj
+	@echo ... free_memory.i
+	@echo ... free_memory.s
+	@echo ... initialize_variables.obj
+	@echo ... initialize_variables.i
+	@echo ... initialize_variables.s
+	@echo ... login.obj
+	@echo ... login.i
+	@echo ... login.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

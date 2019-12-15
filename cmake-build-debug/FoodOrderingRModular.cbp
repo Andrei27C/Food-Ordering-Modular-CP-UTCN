@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/github/FOModular/FoodOrderingModular/cmake-build-debug"/>
+				<Option working_dir="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FoodOrderingRModular">
-				<Option output="C:/github/FOModular/FoodOrderingModular/cmake-build-debug/FoodOrderingRModular.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/github/FOModular/FoodOrderingModular/cmake-build-debug"/>
+				<Option output="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/FoodOrderingRModular.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,15 +30,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoodOrderingRModular"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoodOrderingRModular"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FoodOrderingRModular/fast">
-				<Option output="C:/github/FOModular/FoodOrderingModular/cmake-build-debug/FoodOrderingRModular.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/github/FOModular/FoodOrderingModular/cmake-build-debug"/>
+				<Option output="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/FoodOrderingRModular.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,55 +49,79 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoodOrderingRModular/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoodOrderingRModular/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/github/FOModular/FoodOrderingModular/cmake-build-debug"/>
+				<Option working_dir="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/github/FOModular/FoodOrderingModular/cmake-build-debug"/>
+				<Option working_dir="C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/github/FOModular/FoodOrderingModular/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/csatl/Documents/GitHub/FoodOrdering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/additional_things.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/additional_things.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/buyer.h">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/choosingFood.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/choosingFood.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/main.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/order.h">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/order_confimation.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/user_data.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/github/FOModular/FoodOrderingModular/CMakeLists.txt">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/initialize_variables.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/login.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/main.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/order.h">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/order_confimation.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/user_data.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

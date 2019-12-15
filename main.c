@@ -1,45 +1,46 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "buyer.h"
 #include "order.h"
-
-#define noOfFood 3
-#define noDrinks 4
+#include "data_loading.h"
+#include "variables.h"
+#include "free_memory.h"
+#include "login.h"
+#define LOAD_DATA "Please load the data"
+#define MAX_DRINK_NAME 30
+void afisTypes();
+void afisDrinks();
+void loadData();
 
 int main() {
     int wantCutlery = 0,  state =0, orderConfirmed = 0;
-    char additionalInfo[200], username[20], password[20];
+    char additionalInfo[200], username[MAX_USER_LENGTH], password[MAX_USER_LENGTH];
     int choice, foodChoice, chosendrink, nochosendrink=0, typeChoice;
-    char drinks[][15] = {"Coca-cola","Fanta","Lipton","Water"};
-    double drinksPrices[] = {5,5,5,4};
-    char food[][10] = {"Pizza","Pasta","Salad"};
-    int noTypes[] = {3,2,4};
-    char types[3][4][15] = {
-            {"Carbonara", "Diavola", "Margherita",""},
-            {"Chicken alfredo", "Mac&cheese", "",""},
-            {"Tuna", "Chicken", "Greek","Cobb"}
-    };
-    double prices[3][4] = {
-            {21, 23, 23, 0},
-            {23, 21, 0, 0},
-            {23, 22, 19, 21}
-    };
+    for(int i = 0; i < MAX_USER_LENGTH;i++)
+    {
+        username[i] = '\0';
+        password[i] = '\0';
+    }
+
+    loadData();
     printf("Welcome to Food Thingies!\n");
     while(!orderConfirmed){
         switch (state) {
             case 0: {
-                inputLogin(username, password, &state);
+                login(username, password);
+                state++;
                 break;
             }
             case 1: {
-                foodChoosing(noOfFood, &choice, food, &foodChoice, &state);
+                foodChoosing(noOfFoods, &choice, food, &foodChoice, &state);
                 break;
             }
             case 2: {
-                foodTypeChoosing(noOfFood, &choice, food, &foodChoice, types, prices, &typeChoice, &state);
+                foodTypeChoosing(noOfFoods, &choice, food, &foodChoice, types, foodTypePrices, &typeChoice, &state);
                 break;
             }
             case 3: {
-                drinkChoosing(noDrinks, &choice, food, &foodChoice, drinks, drinksPrices, &nochosendrink, &chosendrink, &state);
+                drinkChoosing(noOfDrinks, &choice, food, &foodChoice, drinks, drinkPrices, &nochosendrink, &chosendrink, &state);
                 break;
             }
             case 4: {
@@ -51,11 +52,54 @@ int main() {
                 break;
             }
             case 6:{
-                orderDisplay(username, food, foodChoice, types, typeChoice, prices, nochosendrink, drinks, drinksPrices,
-                        chosendrink, wantCutlery, additionalInfo, &orderConfirmed, &choice, &state);
+                orderDisplay(username, food, foodChoice, types, typeChoice, foodTypePrices, nochosendrink, drinks, drinkPrices,
+                             chosendrink, wantCutlery, additionalInfo, &orderConfirmed, &choice, &state);
                 break;
             }
         }
     }
+    freeFood();
+    freeDrinks();
     return 0;
+}
+
+void afisTypes()
+{
+    puts("\n----Foods:");
+    for(int i=0;i<noOfFoods;i++)
+    {
+        printf(" --%s\n", food[i]);
+        for(int j=0;j<noOfFoodTypes[i];j++)
+            printf(" %s - %.2f\n", types[i][j], foodTypePrices[i][j]);
+        printf("\n");
+    }
+}
+void afisDrinks()
+{
+    puts("\n----Drinks:");
+    for(int i=0;i<noOfDrinks;i++)
+    {
+        printf(" %s - %.2f\n",drinks[i],drinkPrices[i]);
+    }
+}
+void loadData()
+{
+    if(getConsole == 1)
+        printf("%s\n",LOAD_DATA);
+    initNoOfFoods();
+    initFoods();
+    initNoOfFoodTypes();
+    initFoodTypes();
+    initFoodTypesPrices();
+    initNoOfDrinks();
+    initDrinks();
+    initDrinkPrices();
+
+    loadFoods();
+    loadFoodTypes();
+    //afisTypes();
+
+    loadDrinks();
+    //afisDrinks();
+    printf("\n");
 }
