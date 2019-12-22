@@ -149,6 +149,33 @@ additional_things.c.s:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/additional_things.c.s
 .PHONY : additional_things.c.s
 
+buyer.obj: buyer.c.obj
+
+.PHONY : buyer.obj
+
+# target to build an object file
+buyer.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj
+.PHONY : buyer.c.obj
+
+buyer.i: buyer.c.i
+
+.PHONY : buyer.i
+
+# target to preprocess a source file
+buyer.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/buyer.c.i
+.PHONY : buyer.c.i
+
+buyer.s: buyer.c.s
+
+.PHONY : buyer.s
+
+# target to generate assembly for a file
+buyer.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/buyer.c.s
+.PHONY : buyer.c.s
+
 choosingFood.obj: choosingFood.c.obj
 
 .PHONY : choosingFood.obj
@@ -202,6 +229,33 @@ data_loading.s: data_loading.c.s
 data_loading.c.s:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/data_loading.c.s
 .PHONY : data_loading.c.s
+
+food.obj: food.c.obj
+
+.PHONY : food.obj
+
+# target to build an object file
+food.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/food.c.obj
+.PHONY : food.c.obj
+
+food.i: food.c.i
+
+.PHONY : food.i
+
+# target to preprocess a source file
+food.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/food.c.i
+.PHONY : food.c.i
+
+food.s: food.c.s
+
+.PHONY : food.s
+
+# target to generate assembly for a file
+food.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/food.c.s
+.PHONY : food.c.s
 
 free_memory.obj: free_memory.c.obj
 
@@ -311,59 +365,32 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/main.c.s
 .PHONY : main.c.s
 
-order_confimation.obj: order_confimation.c.obj
+type.obj: type.c.obj
 
-.PHONY : order_confimation.obj
-
-# target to build an object file
-order_confimation.c.obj:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj
-.PHONY : order_confimation.c.obj
-
-order_confimation.i: order_confimation.c.i
-
-.PHONY : order_confimation.i
-
-# target to preprocess a source file
-order_confimation.c.i:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.i
-.PHONY : order_confimation.c.i
-
-order_confimation.s: order_confimation.c.s
-
-.PHONY : order_confimation.s
-
-# target to generate assembly for a file
-order_confimation.c.s:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.s
-.PHONY : order_confimation.c.s
-
-user_data.obj: user_data.c.obj
-
-.PHONY : user_data.obj
+.PHONY : type.obj
 
 # target to build an object file
-user_data.c.obj:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj
-.PHONY : user_data.c.obj
+type.c.obj:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/type.c.obj
+.PHONY : type.c.obj
 
-user_data.i: user_data.c.i
+type.i: type.c.i
 
-.PHONY : user_data.i
+.PHONY : type.i
 
 # target to preprocess a source file
-user_data.c.i:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.i
-.PHONY : user_data.c.i
+type.c.i:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/type.c.i
+.PHONY : type.c.i
 
-user_data.s: user_data.c.s
+type.s: type.c.s
 
-.PHONY : user_data.s
+.PHONY : type.s
 
 # target to generate assembly for a file
-user_data.c.s:
-	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/user_data.c.s
-.PHONY : user_data.c.s
+type.c.s:
+	$(MAKE) -f CMakeFiles\FoodOrderingRModular.dir\build.make CMakeFiles/FoodOrderingRModular.dir/type.c.s
+.PHONY : type.c.s
 
 # Help Target
 help:
@@ -377,12 +404,18 @@ help:
 	@echo ... additional_things.obj
 	@echo ... additional_things.i
 	@echo ... additional_things.s
+	@echo ... buyer.obj
+	@echo ... buyer.i
+	@echo ... buyer.s
 	@echo ... choosingFood.obj
 	@echo ... choosingFood.i
 	@echo ... choosingFood.s
 	@echo ... data_loading.obj
 	@echo ... data_loading.i
 	@echo ... data_loading.s
+	@echo ... food.obj
+	@echo ... food.i
+	@echo ... food.s
 	@echo ... free_memory.obj
 	@echo ... free_memory.i
 	@echo ... free_memory.s
@@ -395,12 +428,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... order_confimation.obj
-	@echo ... order_confimation.i
-	@echo ... order_confimation.s
-	@echo ... user_data.obj
-	@echo ... user_data.i
-	@echo ... user_data.s
+	@echo ... type.obj
+	@echo ... type.i
+	@echo ... type.s
 .PHONY : help
 
 

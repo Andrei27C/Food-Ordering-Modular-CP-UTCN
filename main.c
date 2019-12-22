@@ -5,7 +5,7 @@
 #include "data_loading.h"
 #include "variables.h"
 #include "free_memory.h"
-#include "login.h"
+//#include "login.h"
 #define LOAD_DATA "Please load the data"
 #define MAX_DRINK_NAME 30
 void afisTypes();
@@ -16,18 +16,15 @@ int main() {
     int wantCutlery = 0,  state =0, orderConfirmed = 0;
     char additionalInfo[200], username[MAX_USER_LENGTH], password[MAX_USER_LENGTH];
     int choice, foodChoice, chosendrink, nochosendrink=0, typeChoice;
-    for(int i = 0; i < MAX_USER_LENGTH;i++)
-    {
-        username[i] = '\0';
-        password[i] = '\0';
-    }
+    buyer b = CreateBuyer();
+
 
     loadData();
     printf("Welcome to Food Thingies!\n");
     while(!orderConfirmed){
         switch (state) {
             case 0: {
-                login(username, password);
+                login(&b);
                 state++;
                 break;
             }

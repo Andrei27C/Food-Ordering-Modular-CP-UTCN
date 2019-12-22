@@ -19,14 +19,14 @@
 #define INCORRECT_PASSWORD "Incorrect password"
 #define MAX_USER_LENGTH 100
 //function prototypes
-void login(char *username, char *password);
-void AskSign(int *stateLogin);
-void SigningIn(char *username, char *password, int *stateLogin);
-int CheckForUsername(char *username);
-int CheckForPassword(char *username, char * password);
-void SignUp(char *username, char *password, int *stateLogin);
-int PasswordIsValid(char *username, char *password);
-void Encryption (char * pass);
-void Decryption (char * pass);
-void UpdateNoOfUsers();
+//void login(char *username, char *password);
+//void AskSign(int *stateLogin);
+//void SigningIn(char *username, char *password, int *stateLogin);
+//int CheckForUsername(char *username);
+//int CheckForPassword(char *username, char * password);
+//void SignUp(char *username, char *password, int *stateLogin);
+//int PasswordIsValid(char *username, char *password);
+//void Encryption (char * pass);
+//void Decryption (char * pass);
+//void UpdateNoOfUsers();
 #endif //FOODORDERINGRMODULAR_LOGIN_H
