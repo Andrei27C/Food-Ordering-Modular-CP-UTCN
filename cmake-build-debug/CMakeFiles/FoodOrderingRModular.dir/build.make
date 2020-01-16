@@ -69,22 +69,9 @@ CMakeFiles/FoodOrderingRModular.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\main.c -o CMakeFiles\FoodOrderingRModular.dir\main.c.s
 
-CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
-CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj: ../user_data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\user_data.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\user_data.c
-
-CMakeFiles/FoodOrderingRModular.dir/user_data.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FoodOrderingRModular.dir/user_data.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csatl\Documents\GitHub\FoodOrdering\user_data.c > CMakeFiles\FoodOrderingRModular.dir\user_data.c.i
-
-CMakeFiles/FoodOrderingRModular.dir/user_data.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/user_data.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\user_data.c -o CMakeFiles\FoodOrderingRModular.dir\user_data.c.s
-
 CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj: ../choosingFood.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\choosingFood.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\choosingFood.c
 
 CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.i: cmake_force
@@ -97,7 +84,7 @@ CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.s: cmake_force
 
 CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj: ../additional_things.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\additional_things.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\additional_things.c
 
 CMakeFiles/FoodOrderingRModular.dir/additional_things.c.i: cmake_force
@@ -108,22 +95,9 @@ CMakeFiles/FoodOrderingRModular.dir/additional_things.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/additional_things.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\additional_things.c -o CMakeFiles\FoodOrderingRModular.dir\additional_things.c.s
 
-CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
-CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj: ../order_confimation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\order_confimation.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\order_confimation.c
-
-CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csatl\Documents\GitHub\FoodOrdering\order_confimation.c > CMakeFiles\FoodOrderingRModular.dir\order_confimation.c.i
-
-CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\order_confimation.c -o CMakeFiles\FoodOrderingRModular.dir\order_confimation.c.s
-
 CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj: ../data_loading.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\data_loading.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\data_loading.c
 
 CMakeFiles/FoodOrderingRModular.dir/data_loading.c.i: cmake_force
@@ -136,7 +110,7 @@ CMakeFiles/FoodOrderingRModular.dir/data_loading.c.s: cmake_force
 
 CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj: ../initialize_variables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\initialize_variables.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\initialize_variables.c
 
 CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.i: cmake_force
@@ -149,7 +123,7 @@ CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.s: cmake_force
 
 CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj: ../free_memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\free_memory.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\free_memory.c
 
 CMakeFiles/FoodOrderingRModular.dir/free_memory.c.i: cmake_force
@@ -162,7 +136,7 @@ CMakeFiles/FoodOrderingRModular.dir/free_memory.c.s: cmake_force
 
 CMakeFiles/FoodOrderingRModular.dir/login.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
 CMakeFiles/FoodOrderingRModular.dir/login.c.obj: ../login.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FoodOrderingRModular.dir/login.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FoodOrderingRModular.dir/login.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\login.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\login.c
 
 CMakeFiles/FoodOrderingRModular.dir/login.c.i: cmake_force
@@ -173,35 +147,76 @@ CMakeFiles/FoodOrderingRModular.dir/login.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/login.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\login.c -o CMakeFiles\FoodOrderingRModular.dir\login.c.s
 
+CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
+CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj: ../buyer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\buyer.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\buyer.c
+
+CMakeFiles/FoodOrderingRModular.dir/buyer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FoodOrderingRModular.dir/buyer.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csatl\Documents\GitHub\FoodOrdering\buyer.c > CMakeFiles\FoodOrderingRModular.dir\buyer.c.i
+
+CMakeFiles/FoodOrderingRModular.dir/buyer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/buyer.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\buyer.c -o CMakeFiles\FoodOrderingRModular.dir\buyer.c.s
+
+CMakeFiles/FoodOrderingRModular.dir/food.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
+CMakeFiles/FoodOrderingRModular.dir/food.c.obj: ../food.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FoodOrderingRModular.dir/food.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\food.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\food.c
+
+CMakeFiles/FoodOrderingRModular.dir/food.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FoodOrderingRModular.dir/food.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csatl\Documents\GitHub\FoodOrdering\food.c > CMakeFiles\FoodOrderingRModular.dir\food.c.i
+
+CMakeFiles/FoodOrderingRModular.dir/food.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/food.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\food.c -o CMakeFiles\FoodOrderingRModular.dir\food.c.s
+
+CMakeFiles/FoodOrderingRModular.dir/type.c.obj: CMakeFiles/FoodOrderingRModular.dir/flags.make
+CMakeFiles/FoodOrderingRModular.dir/type.c.obj: ../type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/FoodOrderingRModular.dir/type.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\FoodOrderingRModular.dir\type.c.obj   -c C:\Users\csatl\Documents\GitHub\FoodOrdering\type.c
+
+CMakeFiles/FoodOrderingRModular.dir/type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FoodOrderingRModular.dir/type.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\csatl\Documents\GitHub\FoodOrdering\type.c > CMakeFiles\FoodOrderingRModular.dir\type.c.i
+
+CMakeFiles/FoodOrderingRModular.dir/type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FoodOrderingRModular.dir/type.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\csatl\Documents\GitHub\FoodOrdering\type.c -o CMakeFiles\FoodOrderingRModular.dir\type.c.s
+
 # Object files for target FoodOrderingRModular
 FoodOrderingRModular_OBJECTS = \
 "CMakeFiles/FoodOrderingRModular.dir/main.c.obj" \
-"CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj" \
 "CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj" \
 "CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj" \
-"CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj" \
 "CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj" \
 "CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj" \
 "CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj" \
-"CMakeFiles/FoodOrderingRModular.dir/login.c.obj"
+"CMakeFiles/FoodOrderingRModular.dir/login.c.obj" \
+"CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj" \
+"CMakeFiles/FoodOrderingRModular.dir/food.c.obj" \
+"CMakeFiles/FoodOrderingRModular.dir/type.c.obj"
 
 # External object files for target FoodOrderingRModular
 FoodOrderingRModular_EXTERNAL_OBJECTS =
 
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/main.c.obj
-FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj
-FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/initialize_variables.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/login.c.obj
+FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj
+FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/food.c.obj
+FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/type.c.obj
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/build.make
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/linklibs.rsp
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/objects1.rsp
 FoodOrderingRModular.exe: CMakeFiles/FoodOrderingRModular.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable FoodOrderingRModular.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\csatl\Documents\GitHub\FoodOrdering\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable FoodOrderingRModular.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FoodOrderingRModular.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

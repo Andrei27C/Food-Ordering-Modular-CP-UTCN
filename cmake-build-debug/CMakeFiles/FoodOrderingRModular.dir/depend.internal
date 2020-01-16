@@ -3,11 +3,20 @@
 
 CMakeFiles/FoodOrderingRModular.dir/additional_things.c.obj
  C:/Users/csatl/Documents/GitHub/FoodOrdering/additional_things.c
+CMakeFiles/FoodOrderingRModular.dir/buyer.c.obj
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.c
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.h
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h
 CMakeFiles/FoodOrderingRModular.dir/choosingFood.c.obj
  C:/Users/csatl/Documents/GitHub/FoodOrdering/choosingFood.c
 CMakeFiles/FoodOrderingRModular.dir/data_loading.c.obj
  C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.c
  C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.h
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h
+CMakeFiles/FoodOrderingRModular.dir/food.c.obj
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/food.c
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/food.h
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/type.h
  C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h
 CMakeFiles/FoodOrderingRModular.dir/free_memory.c.obj
  C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.c
@@ -23,11 +32,11 @@ CMakeFiles/FoodOrderingRModular.dir/main.c.obj
  C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.h
  C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.h
  C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.h
- C:/Users/csatl/Documents/GitHub/FoodOrdering/login.h
  C:/Users/csatl/Documents/GitHub/FoodOrdering/main.c
  C:/Users/csatl/Documents/GitHub/FoodOrdering/order.h
  C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h
-CMakeFiles/FoodOrderingRModular.dir/order_confimation.c.obj
- C:/Users/csatl/Documents/GitHub/FoodOrdering/order_confimation.c
-CMakeFiles/FoodOrderingRModular.dir/user_data.c.obj
- C:/Users/csatl/Documents/GitHub/FoodOrdering/user_data.c
+CMakeFiles/FoodOrderingRModular.dir/type.c.obj
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/food.h
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/type.c
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/type.h
+ C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h

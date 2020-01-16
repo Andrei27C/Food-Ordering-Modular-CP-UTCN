@@ -79,6 +79,9 @@
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/additional_things.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/buyer.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
@@ -89,6 +92,12 @@
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/data_loading.h">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/food.c">
+			<Option target="FoodOrderingRModular"/>
+		</Unit>
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/food.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/free_memory.c">
@@ -112,10 +121,10 @@
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/order.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/order_confimation.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/type.c">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
-		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/user_data.c">
+		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/type.h">
 			<Option target="FoodOrderingRModular"/>
 		</Unit>
 		<Unit filename="C:/Users/csatl/Documents/GitHub/FoodOrdering/variables.h">
